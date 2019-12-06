@@ -43,7 +43,7 @@ for e in xrange(episode_count + 1):
 
 		if done:
 			print ("--------------------------------")
-			print "Total Profit: " + formatPrice(total_profit)
+			print ("Total Profit: " + formatPrice(total_profit))
 			print ("--------------------------------")
 
 		if len(agent.memory) > batch_size:
